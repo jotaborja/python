@@ -5,6 +5,9 @@ Escribir un programa que pregunte el nombre completo del usuario en la consola y
 """
 
 
-fruit = "banana"
-for letter in fruit:
-    print(letter)
+name = input("Escribe tu nombre y apellido: ")
+
+print(name.upper())
+print(name.lower())
+print(name.title())
+
