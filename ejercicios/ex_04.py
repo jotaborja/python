@@ -10,7 +10,9 @@ str = 'X-DSPAM-Confidence: 0.8475'
 
 encuentra = str.find(":")
 print(encuentra)
+
 num = str[encuentra+2:]
 print(num)
+
 numfloat = float(num)
 print(type(numfloat))
