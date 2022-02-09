@@ -14,7 +14,6 @@ while True:
     try:
         fnumber = float(number)
         num += 1
-        
         tot += fnumber
     except:
         print("invalid input || type done to end program")
